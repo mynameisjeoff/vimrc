@@ -16,4 +16,6 @@ set shiftwidth=4
 set expandtab
 syntax on
 set ruler
-
+set number
+highlight LineNr ctermfg=grey
+:imap jj <Esc>
