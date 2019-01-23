@@ -1,6 +1,7 @@
 " Plugins will be downloaded under the specified directory.
 " Jeoff if this is a new set up, run this command:
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" Install by launching vim and calling `:PlugInstall`
 call plug#begin('~/.vim/autoload')
 
 " Declare the list of plugins.
